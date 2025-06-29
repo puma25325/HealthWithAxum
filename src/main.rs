@@ -18,6 +18,6 @@ async fn main() {
         .init();
 
     tracing::info!("{} v{}", env!("CARGO_PKG_NAME"), env!("CARGO_PKG_VERSION"));
-
+    //this main run the axum web application
     app::run().await;
 }
